@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include header.html %}
+      {% include menu-left.html %}
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+        {% include footer.html %}
+      </main>
+    </div>
+  {% include google-analytics.html %}
+  </body>
+</html>

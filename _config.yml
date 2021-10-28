@@ -1,0 +1,22 @@
+# Site settings
+title: Dark Tornado
+email: dt3141592@naver.com
+description: Dark Tornado's Blog
+url: "http://darktornado.github.io/blog" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+copyright: '&copy; 2021 Dark Tornado, All rights reserved.'
+
+# Build settings
+markdown: kramdown
+
+# Custom theme could be generated at: https://getmdl.io/customize/index.html
+material_theme: deep_purple-purple
+
+# Google Analytics account ID (UA-XXXXXXXX-X)
+
+google-analytics-ua: UA-84475574-1
+
+# Misc
+github: 'https://github.com/DarkTornado'
+naver_blog: 'https://blog.naver.com/dt3141592'
+home_page: 'https://darktornado.develope.kr'

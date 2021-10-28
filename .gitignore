@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.idea
+.jekyll-cache
+Gemfile.lock
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride

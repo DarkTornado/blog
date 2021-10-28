@@ -1,0 +1,12 @@
+.site-title {
+  color: $site-title-color;
+  text-decoration: none;
+  transition: color .3s ease-out;
+  width: 100%;
+  text-align: center;
+  margin-left: -24px;
+
+  &:hover {
+    color: #000000;
+  }
+}
