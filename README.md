@@ -4,4 +4,3 @@
 
 * 오오 드디어 성공한건가
 * This site used [Jekyll Smart Material](https://github.com/ssokurenko/jekyll-smart-material)
-* 
