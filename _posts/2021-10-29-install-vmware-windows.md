@@ -43,6 +43,6 @@ description: 윈도우에 VMWare Workstation 설치하기
 
 그러면 이렇게 VMWare가 실행되는거에요.
 
-![image](https://darktornado.github.io/blog/assets/images/install-vmware-windows/7.jpg)
+![image](https://darktornado.github.io/blog/assets/images/install-vmware-windows/7.png)
 
 설치 끝
