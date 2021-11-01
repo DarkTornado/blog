@@ -21,13 +21,11 @@ description: 윈도우에 node.js 설치하기
 
 설치할 경로랑 설치할 것들은 원하는 대로 바꾸셔도 되고 그냥 놔둬도 됩니담.
 
-<br>
-
 ![image](https://darktornado.github.io/blog/assets/images/nodejs-install-windows/2.jpg)
 
-저거도 필요하다 싶으면 체크하시고 계속 `Next` 누르다가 `Install` 누르면 설치 시작
-
 <br>
+
+저거도 필요하다 싶으면 체크하시고 계속 `Next` 누르다가 `Install` 누르면 설치 시작
 
 ![image](https://darktornado.github.io/blog/assets/images/nodejs-install-windows/3.jpg)
 
