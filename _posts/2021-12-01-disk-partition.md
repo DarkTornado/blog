@@ -31,7 +31,7 @@ description: 윈도우에서 디스크 파티션 분할하기
 
 <br>
 
-그러면 나오는 화면에서 얼마나 출일지 입력
+나오는 화면에서 얼마나 출일지 입력
 
 ![image](https://darktornado.github.io/blog/assets/images/disk-partition/3.jpg)
 
