@@ -9,7 +9,7 @@ description: 윈도우에 VMWare Workstation 설치하기
 
 비영리 목적인 개인 사용자들은 VMWare Workstation을 무료로 사용할 수 있어요.
 
-일단 [이부분을 눌러서 다운로드 사이트로 이동](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html)하면 나오는 사이트에서 `지금 다운로드` 클릭
+일단 [이부분을 눌러서 VMWare 다운로드 사이트로 이동](https://www.vmware.com/kr/products/workstation-player/workstation-player-evaluation.html)하면 나오는 사이트에서 `지금 다운로드` 클릭
 
 ![image](https://darktornado.github.io/blog/assets/images/install-vmware-windows/0.jpg)
 
