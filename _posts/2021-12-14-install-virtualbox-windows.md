@@ -19,7 +19,7 @@ description: 윈도우에 virtualBox 설치하기
 
 <br>
 
-여기서도 다음에 드는건 체크하고, 다음에 안드는건 체크 안하고 `Next` 클릭. 그러면 설치 과정에서 인터넷 연결이 잠시 다 끊긴다는 경고가 뜰텐데, 끊어져도 되면 `Yes` 클릭.
+다음에 드는건 체크하고, 다음에 안드는건 체크 안하고 `Next` 클릭. 그러면 설치 과정에서 인터넷 연결이 잠시 다 끊긴다는 경고가 뜰텐데, 끊어져도 되면 `Yes` 클릭.
 
 ![image](https://darktornado.github.io/blog/assets/images/install-virtualbox-windows/2.jpg)
 
