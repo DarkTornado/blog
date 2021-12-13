@@ -39,7 +39,7 @@ description: 윈도우에 VMWare Workstation 설치하기
 
 <br>
 
-아무튼 설치가 진행되다가 설치가 끝나면 다음과 같은 화면이 나오고, `Finish` 눌러서 끄면 되는거에요.
+설치가 진행되다가 설치가 끝나면 다음과 같은 화면이 나오고, `Finish` 눌러서 끄면 되는거에요.
 
 ![image](https://darktornado.github.io/blog/assets/images/install-vmware-windows/4.jpg)
 
@@ -51,7 +51,7 @@ description: 윈도우에 VMWare Workstation 설치하기
 
 <br>
 
-아무튼 재부팅 이후에 VMWare를 실행하면 다음과 같은 창이 뜰텐데, 비영리 사용자는 무료니까, 비영리 목적으로 쓴다고 체크해놓고 `Continue` 클릭 후 `Finish` 클릭
+재부팅 이후에 VMWare를 실행하면 다음과 같은 창이 뜰텐데, 비영리 사용자는 무료니까, 비영리 목적으로 쓴다고 체크해놓고 `Continue` 클릭 후 `Finish` 클릭
 
 ![image](https://darktornado.github.io/blog/assets/images/install-vmware-windows/6.jpg)
 
