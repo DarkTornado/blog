@@ -43,7 +43,7 @@ description: 윈도우에 virtualBox 설치하기
 
 <br>
 
-실행한 모습
+VirtualBox를 실행한 모습
 
 ![image](https://darktornado.github.io/blog/assets/images/install-virtualbox-windows/6.jpg)
 
