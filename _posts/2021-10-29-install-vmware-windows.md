@@ -21,7 +21,7 @@ description: 윈도우에 VMWare Workstation 설치하기
 
 <br>
 
-아래 화면이 나올거에요. 그러면 `Next` 클릭하고, 약관 동의한다고 체크한 뒤에 또 `Ntext` 클릭하고
+이런 화면이 나올거에요. 그러면 `Next` 클릭하고, 약관 동의한다고 체크한 뒤에 또 `Ntext` 클릭하고
 
 ![image](https://darktornado.github.io/blog/assets/images/install-vmware-windows/1.jpg)
 
