@@ -3,7 +3,7 @@ layout: post
 title: "grub 빼고 리눅스 민트 설치하기"
 date: 2021-12-17 23:00:00
 categories: blog
-image: ./tumb/install-linux-mint-without-grub.png
+image: install-linux-mint-without-grub.png
 description: 리눅스 민트 설치할 때 부트로더는 제외시키기
 ---
 

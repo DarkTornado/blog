@@ -3,7 +3,7 @@ layout: post
 title: "node.js 설치 (윈도우)"
 date: 2021-11-01 19:40:00
 categories: blog
-image: ./tumb/nodejs-install-windows.jpg
+image: nodejs-install-windows.jpg
 description: 윈도우에 node.js 설치하기
 ---
 

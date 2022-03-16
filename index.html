@@ -1,23 +1,76 @@
 ---
 layout: default
 ---
+<div class="container">
+	<div class="row">
+	{% if site.posts.size > 0 %}
+		{%- for post in paginator.posts -%}
+		{% if forloop.index <= 1 %}
+		<div class="col col-12">
+			<article class="article-first">
+				<div class="article-image-first" style="background-image: url({{"/assets/images/thumb/" | prepend: site.baseurl | append : post.image}})">
+					<div class="article-content-first">
+						<div class="article-tag">
+						{% if post.tags.size >= 1 %}
+							{% for tag in post.tags %}
+							<a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+							{% endfor %}
+						{% else %} {% endif %}
+						</div>
+						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
+						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
+						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
+					</div>
+				</div>
+			</article> <!-- /.article-first -->
+		</div>
+		{% endif %}
 
-<div class="mdl-grid">
-  {% for post in site.posts %}
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="post-card mdl-shadow--2dp">
-          <img src="./assets/images/{{ post.image }}"/>
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">{{ post.title }}</h2>
-          </div>
+		{% endfor %}
+	{% endif %}
+	</div>
+</div>
 
-          <div class="mdl-card__supporting-text">
-            {{ post.description }}
-          </div>
-          <div class="post-card__fade"></div>
-        </div>
-      </a>
-  </div>
-  {% endfor %}
+<div class="container">
+	<div class="row">
+		<div class="col col-12 col-t-8">
+			<div class="row">
+			{%- for post in paginator.posts offset: 1 -%}
+				<article class="article col col-12 col-t-6">
+					<div class="article-box" style="width:100%">
+						<div class="article-head">
+							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{"/assets/images/thumb/" | prepend: site.baseurl | append : post.image}})">
+								<div class="image-overlay">
+									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
+								</div>
+							</a>
+						</div>
+						<div class="article-content">
+							<div class="article-info">
+								<div class="article-date">
+									<span class="date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+								</div>
+								<div class="article-tag">
+								{% if post.tags.size >= 1 %}
+									{% for tag in post.tags %}
+									<a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+									{% endfor %}
+								{% else %} {% endif %}
+								</div>
+							</div>
+							<h2 class="article-title">
+								<a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+							</h2>
+							<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 135 }}{% else %}{{ post.content | strip_html | truncate: 135 }}{% endif %}</p>
+						</div>
+					</div>
+				</article> <!-- /.article -->
+			{% endfor %}
+			</div>
+			{% include pagination.html %}
+		</div>
+		<div class="col col-12 col-t-4">
+			{% include sidebar.html %}
+		</div>
+	</div>
 </div>

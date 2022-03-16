@@ -3,7 +3,7 @@ layout: post
 title: "할로윈"
 date: 2021-10-31 20:40:00
 categories: blog
-image: ./tumb/halloween_2021.jpg
+image: halloween_2021.jpg
 description: 할로윈 기념 잔디 색 변경?
 ---
 

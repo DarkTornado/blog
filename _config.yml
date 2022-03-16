@@ -1,22 +1,75 @@
-# Site settings
-title: Dark Tornado
-email: dt3141592@naver.com
-description: Dark Tornado's Blog
-url: "http://darktornado.github.io/blog" # the base hostname & protocol for your site
-baseurl: "/" # the subpath of your site, e.g. /blog/
-copyright: '&copy; 2021 Dark Tornado, All rights reserved.'
+#-------------------------------
+# General Site Settings
 
+title: Dark Tornado
+description: Dark Tornado's Blog # this means to ignore newlines until "baseurl:"
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+#-------------------------------
+# About Section
+author-name:   Dark Tornado
+author-avatar: DarkTornado.png
+author-name:   Natali Anderson
+
+#-------------------------------
+# External links
+home-page: https://darktornado.develope.kr
+naver: https://blog.naver.com/dt3141592
+github: https://github.com/DarkTornado
+twitter:   https://twitter.com/dt3141592 # Add your Facebook handle
+instagram: https://www.instagram.com/_dt314 # Add your Facebook handle
+youtube: https://www.youtube.com/channel/UCF01bZqYrVIOnubHGGSwxDA
+portfolio: https://darktornado.github.io/Portfolio/
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+
+#-------------------------------
 # Build settings
 markdown: kramdown
+permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Custom theme could be generated at: https://getmdl.io/customize/index.html
-material_theme: deep_purple-purple
+paginate: 7
+paginate_path: "/page/:num"
 
-# Google Analytics account ID (UA-XXXXXXXX-X)
+include:
+  - _pages
 
-google-analytics-ua: UA-84475574-1
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Misc
-github: 'https://github.com/DarkTornado'
-naver_blog: 'https://blog.naver.com/dt3141592'
-home_page: 'https://darktornado.develope.kr'
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

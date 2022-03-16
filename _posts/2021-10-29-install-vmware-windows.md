@@ -3,7 +3,7 @@ layout: post
 title: "VMWare 설치하기"
 date: 2021-10-29 13:58:00
 categories: blog
-image: ./tumb/install-vmware-windows.jpg
+image: install-vmware-windows.jpg
 description: 윈도우에 VMWare Workstation 설치하기
 ---
 

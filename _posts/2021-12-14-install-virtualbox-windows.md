@@ -3,7 +3,7 @@ layout: post
 title: "VirtualBox 설치하기"
 date: 2021-12-13 22:00:00
 categories: blog
-image: ./tumb/install-virtualbox-windows.jpg
+image: install-virtualbox-windows.jpg
 description: 윈도우에 virtualBox 설치하기
 ---
 

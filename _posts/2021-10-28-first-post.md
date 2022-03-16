@@ -3,7 +3,7 @@ layout: post
 title: "블로그 개설!"
 date: 2021-10-26 14:00:00
 categories: blog
-image: Dark Tornado+.png
+image: DarkTornado.png
 description: 첫 게시글
 ---
 

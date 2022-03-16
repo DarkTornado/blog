@@ -3,7 +3,7 @@ layout: post
 title: "디스크 파티션 분할하기"
 date: 2021-12-01 21:00:00
 categories: blog
-image: ./tumb/disk-partition.jpg
+image: disk-partition.jpg
 description: 윈도우에서 디스크 파티션 분할하기
 ---
 
