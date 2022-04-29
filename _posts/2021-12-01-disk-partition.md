@@ -21,7 +21,7 @@ description: 윈도우에서 디스크 파티션 분할하기
 
 용량을 줄일 파티션에다가 대고 우클린한 다음에 `볼륨 축소` 클릭. 해당 기능은 아마 NTFS 파일 시스템을 사용하는 파티션에만 할 수 있을거에요.
 
-![image](https://darktornado.github.io/blog/assets/images/tumb/disk-partition.jpg)
+![image](https://darktornado.github.io/blog/assets/images/thumb/disk-partition.jpg)
 
 <br>
 
