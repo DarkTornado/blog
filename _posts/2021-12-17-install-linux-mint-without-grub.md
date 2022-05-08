@@ -21,7 +21,7 @@ description: 리눅스 민트 설치할 때 부트로더는 제외시키기
 
 그런고로, `ubiquity -b`로 리눅스 설치를 시작하면
 
-![image](https://darktornado.github.io/blog/assets/images/tumb/install-linux-mint-without-grub.png)
+![image](https://darktornado.github.io/blog/assets/images/thumb/install-linux-mint-without-grub.png)
 
 <br>
 
