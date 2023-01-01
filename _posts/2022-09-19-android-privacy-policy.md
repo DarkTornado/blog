@@ -46,6 +46,8 @@ description: 개발자는 해당 애플리케이션을 통해 그 어떠한 개�
   - [전철 노선도](https://play.google.com/store/apps/details?id=com.darktornado.metromap)
   - [대전 도시철도 노선도](https://play.google.com/store/apps/details?id=com.darktornado.daejeonmetro)
   - [C언어 예제 목록](https://play.google.com/store/apps/details?id=com.darktornado.cexamples)
+  - [군가 노래방 번호](https://play.google.com/store/apps/details?id=com.darktornado.militarysong)
+  - [내 IP 확인](https://play.google.com/store/apps/details?id=com.darktornado.showmyip)
 
 ### 제12조(개인정보 처리방침 변경)
 - 이 개인정보처리방침은 2022년 9월 19부터 적용됩니다.
