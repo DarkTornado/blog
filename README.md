@@ -1,6 +1,6 @@
 # Dark Tornado's Blog
 
-© 2021 Dark Tornado, All rights reserved.
+© 2021-2023 Dark Tornado, All rights reserved.
 
 * [Github Blog](https://darktornado.github.io/blog/)
 * [Naver Blog](https://blog.naver.com/dt3141592)
