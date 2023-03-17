@@ -249,7 +249,7 @@ systemctl enable lightdm     //재부팅시 GUI 자동 실행. 종종 자동으�
 수정을 했다면 저장 후 다음 명령어 실행
 
 ```
-locale-gen
+# locale-gen
 ```
 
 <br>
