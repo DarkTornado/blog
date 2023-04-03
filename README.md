@@ -2,6 +2,7 @@
 
 © 2021-2023 Dark Tornado, All rights reserved.
 
-* [Github Blog](https://darktornado.github.io/blog/)
-* [Naver Blog](https://blog.naver.com/dt3141592)
+* [Github Blog (English)](https://darktornado.github.io/)
+* [Github Blog (Korean/한국어)](https://darktornado.github.io/blog/)
+* [Naver Blog (Korean/한국어)](https://blog.naver.com/dt3141592)
 * This site is made with [Galada Jekyll Theme](https://github.com/artemsheludko/galada)
