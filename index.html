@@ -9,6 +9,7 @@ layout: default
 		<div class="col col-12">
 			<article class="article-first">
 				<div class="article-image-first" style="background-image: url({{"/assets/images/thumb/" | prepend: site.baseurl | append : post.image}})">
+					<div class="article-image-first-overlay">
 					<div class="article-content-first">
 						<div class="article-tag">
 						{% if post.tags.size >= 1 %}
@@ -21,6 +22,7 @@ layout: default
 						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{% else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
 						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
 					</div>
+				</div>
 				</div>
 			</article> <!-- /.article-first -->
 		</div>
