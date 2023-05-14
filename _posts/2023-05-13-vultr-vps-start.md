@@ -15,12 +15,12 @@ description: "벌쳐에서 VPS 구매하기"
 
 <br>
 링크를 준 사람과 그 링크를 받아서 가입한 사람한테 크레딧을 주는데, 가입한 사람에게는 $100 정도 주는걸로 기억하는데, $250네요?
-어차피 저거 유효기간 30일인걸로 알고있긴 한데
+어차피 저거 유효기간 30일인걸로 알고있긴 한데,
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/vultr-vps-start/1.png)
 
 <br>
-아무튼 이메일로 온거 들어가서 계정 활성화도 하고
+아무튼 이메일로 온거 들어가서 계정 활성화도 하고,
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/vultr-vps-start/2.png)
 
