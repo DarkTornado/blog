@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "우분투 서버에 nginx 설치 및 방화벽 설정 (Vultr VPS 사용)"
-date: 2023-05-15 19:00:00 +0900
+date: 2023-05-16 19:00:00 +0900
 categories: blog
 image: vultr-vps-nginx.jpg
 description: "벌쳐에서 구매한 우분투가 설치된 VPS에 nginx 설치해서 이것저것하기"
