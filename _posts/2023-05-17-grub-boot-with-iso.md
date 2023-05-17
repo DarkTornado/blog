@@ -16,7 +16,7 @@ description: "grub 부팅 메뉴에 .iso 파일을 넣어두고 라이브 부팅
 <br>
 그걸 선택하면 이렇게 해당 .iso 파일을 통해 라이브 부팅이 되도록 만들거에요.
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/grub-boot-with-iso/1.png)
+![image]({{site.url}}{{site.baseurl}}/assets/images/grub-boot-with-iso/1.jpg)
 
 ***
 
