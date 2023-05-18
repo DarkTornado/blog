@@ -6,6 +6,11 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/DarkTornado.png{% if page.image %}thumb/{{ page.image }}{% else %}{{ site.author-img }}{% endif %}">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" property="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/images/DarkTornado.png{% if page.image %}thumb/{{ page.image }}{% else %}{{ site.author-img }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
