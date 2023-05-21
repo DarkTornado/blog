@@ -36,7 +36,6 @@ menuentry "{메뉴에 보일 내용}" {
 그리고 부트 메뉴에는 "Ubuntu Desktop 22.02.2 LTS Live"라는 이름으로 넣고 싶다면
 ```sh
 menuentry "Ubuntu Desktop 22.02.2 LTS Live" {
-    # rmmod tpm
     set isofile="/home/username/ubuntu-22.04.2-desktop-amd64.iso"
     loopback loop (hd0,gpt3)$isofile
     linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=$isofile noprompt noeject
