@@ -77,6 +77,10 @@ menuentry "{메뉴에 보일 내용}" {
 ```
 
 ***
+## 아치 리눅스
+[이 게시글]({{site.url}}{{site.baseurl}}/archlinux-liveboot-grub/)을 참고해보세요.
+
+***
 ## 만자로 리눅스
 `manjaro-kde-22.0.5-minimal-230316-linux61.iso` 파일이 기준이에요. 아치 계열 리눅스들도 다 이런식인지는 모르겠어요.
 ```sh
@@ -91,8 +95,6 @@ menuentry "{메뉴에 보일 내용}" {
     initrd  (loop)/boot/intel_ucode.img (loop)/boot/initramfs-x86_64.img
 }
 ```
-<br>
-가만 생각해보니, `chroot`용으로 아치도 넣어두면 편할 것 같긴 한데, 그러면 사실상 개나소나 제 컴퓨터를 root 권한을 가지고 사용할 수 있는거네요? 안해야지.
 
 ***
 ## 리눅스 민트 데비안 에디션 (LMDE)
@@ -156,3 +158,17 @@ menuentry "{메뉴에 보일 내용}" {
 
 <br>
 그리고, `/etc/grub.d/` 폴더 안에 있는 파일들 앞에 써있는 수 순서대로 실행되는 듯 해서 custom 파일 앞에 적힌 수를 적당히 바꿨더니 `UEFI Firmware Settings`보다 위에 메뉴가 추가되네요.
+
+***
+## 보안 이슈
+
+`chroot`용으로 아치리눅스를 넣어둘까 생각이 들긴 했는데, 굳이 아치가 아니더라도 이걸 가만 생각해보면,
+```
+grub애서 바로 리눅스 라이브 부팅이 가능하다
+ = 누구나 라이브 부팅으로 내 PC를 쓸 수 있다
+ = 개나소나 root 권한을 가지고 내 PC를 쓸 수 있다
+```
+<br>
+가 되는지라, `grub` 자체를 잠궈버려서 해결했어요. 가만히 놔두면 원래 깔려있던 알아서 리눅스로 부팅되는 것도 원했던지라, 일부 `menuenrty`는 비밀번호 입력 없이도 실행되도록 했구요
+
+방법은 [이 게시글]({{site.url}}{{site.baseurl}}/grub-menuentry-password/)을 참고하시면 될거에요.
