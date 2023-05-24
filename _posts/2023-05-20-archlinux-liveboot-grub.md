@@ -52,3 +52,5 @@ $ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 <br>
 다른 리눅스들도 추가하고 싶으시다면, [다음 게시글]({{site.url}}{{site.baseurl}}/grub-boot-with-iso/)을 참고해보세요.
+
+이런식으로 아치리눅스로 라이브 부팅이 가능하게 해놓으면, 개나소나 `arch-chroot`를 통해 `root` 권한을 가진 상태로 본인의 PC를 사용할 수 있게 된다는 뜻이기도 하니, [이 게시글]({{site.url}}{{site.baseurl}}/grub-menuentry-password/)을 슬쩍 컨닝하면서 능력것 막아보세요.
