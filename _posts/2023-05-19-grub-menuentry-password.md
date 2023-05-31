@@ -7,7 +7,7 @@ image: grub-menuentry-password.jpg
 description: "사실은 grub 자체에 menuentry에 비밀번호 걸고, 일부 menuentry에만 풀기"
 ---
 
-**저는 이 게시글을 따라함으로서 발생하는 모든 일에 대하 책임을 지지 않아요.**
+<font color=red> 저는 이 게시글을 따라함으로서 발생하는 모든 일에 대하 책임을 지지 않아요.</font>
 
 글 이름은 `grub에서 일부 menuentry에만 비밀번호 걸기`지만, 실제로 다룰 내용은 `grub` 자체에 비밀번호를 걸어서 아무것도 못하게 만들어두고, 일부 `menuentry`는 비밀번호를 요구하지 않도록 만들거에요.
 아무튼, 일부 `menuentry`에만 비밀번호를 거는 것과 거의 동일한 결과를 만들 수 있긴 해요.
