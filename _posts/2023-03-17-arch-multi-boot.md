@@ -7,6 +7,8 @@ image: arch-multi-boot.png
 description: "멀티 부팅으로 아치 리눅스 설치하기 + 시나몬"
 ---
 
+<span style="color:#FF1744">저는 이 게시글을 따라함으로서 발생하는 모든 일에 대하 책임을 지지 않아요.</span>
+
 사실 아치 리눅스를 다시 설치하는 미래의 나를 위해서 작성해두는 글일지도 몰라요.
 [English Post](https://darktornado.github.io/archlinux-multiboot/)
 
