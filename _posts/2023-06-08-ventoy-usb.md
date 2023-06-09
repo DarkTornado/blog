@@ -46,12 +46,12 @@ PC에 연결한 USB들 중 `.iso 파일`을 넣기만 해도 부팅 가능한 US
 <br>
 끝
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/ventoy-usb/6.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/ventoy-usb/6.png)
 
 <br>
 아햏햏
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/ventoy-usb/7.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/ventoy-usb/7.png)
 
 <br>
 뭔가 파티션을 나눠서 구석에다가 EFI 파티션을 만들어둔 듯한 느낌이에요. 저 안에 `grub`가 깔려있을 것 같은건 기분탓
