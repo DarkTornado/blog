@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "linode 더 낮은 요금제로 바꾸기"
-date: 2023-06-12 00:00:00 +0900
+date: 2023-06-12 00:23:00 +0900
 categories: blog
 image: linode-change-plan.png
 description: "linode 더 낮은 요금제로 바꾸기 + 디스크 용량 줄이기"
