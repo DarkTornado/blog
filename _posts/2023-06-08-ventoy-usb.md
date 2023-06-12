@@ -67,12 +67,12 @@ PC에 연결한 USB들 중 `.iso 파일`을 넣기만 해도 부팅 가능한 US
 PC의 부팅 우선순위 등을 바꾸거나 해서 USB로 부팅하면 이렇게 안에 있는 파일들 목록이 나와요.
 `방향키`와 `엔터키`를 통해 어느 `.iso 파일`로 부팅할지 고르시면
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/thumb/ventoy-usb.png)
+![image]({{site.url}}{{site.baseurl}}/assets/images/ventoy-usb/10.png)
 
 <br>
 이런식으로 부팅될거에요. 아래 사진은 `윈도우 10 .iso 파일`을 골랐을 때 모습이에요.
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/ventoy-usb/10.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/ventoy-usb/11.jpg)
 
 
 <br>
