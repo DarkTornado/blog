@@ -93,7 +93,7 @@ VPS의 `label`을 저기다가 적고 `Resize Linode` 버튼을 누르면
 <br>
 `RESIZING`이라고 써있네요.
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/13.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/13.png)
 
 <br>
 진행 정도와 남은 시간은 알림이 뜨는 창에서 볼 수 있어요.
