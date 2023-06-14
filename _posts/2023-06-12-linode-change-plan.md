@@ -91,7 +91,7 @@ VPS의 `label`을 저기다가 적고 `Resize Linode` 버튼을 누르면
 ![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/12.jpg)
 
 <br>
-`RESIZING`이라고 써있네요.
+`RESIZING`으로 문구가 바뀌었어요.
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/13.png)
 
