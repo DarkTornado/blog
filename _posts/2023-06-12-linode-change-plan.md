@@ -106,6 +106,6 @@ VPS의 `label`을 저기다가 적고 `Resize Linode` 버튼을 누르면
 ![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/15.png)
 
 <br>
-이제 서버를 키시면 됩니당
+이제 서버를 키시면 됩니당.
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/16.png)
