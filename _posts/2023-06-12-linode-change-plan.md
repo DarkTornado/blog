@@ -81,7 +81,7 @@ description: "linode 더 낮은 요금제로 바꾸기 + 디스크 용량 줄이
 ![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/10.png)
 
 <br>
-VPS의 `label`을 저기다가 적고 `Resize Linode` 버튼을 누르면
+VPS의 `label`을 저기다가 적고 `Resize Linode` 버튼을 누르면,
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/11.png)
 
