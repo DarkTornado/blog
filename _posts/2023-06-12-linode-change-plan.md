@@ -20,6 +20,8 @@ description: "linode 더 낮은 요금제로 바꾸기 + 디스크 용량 줄이
 이니까, 일단 디스크 용량을 `30GB` 정도 줄어야 해요. `df -h` 명령어를 통해 여유공간을 확인할 수 있어요.
 전 `80GB` 중 `10GB` 정도를 사용하고 있으니, 그냥 줄여도 될 것 같아요.
 
+현재 요금제보다 바꾸려는 요금제의 디스크 용량이 더 적은 경우는 디스크 용량 먼저 줄이라는 문구가 나와요.
+
 ![image]({{site.url}}{{site.baseurl}}/assets/images/linode-change-plan/0.png)
 
 <br>
