@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CloudFlare 적용 후 IP 더 확실하게 숨기기"
-date: 2023-06-12 00:23:00 +0900
+date: 2023-07-06 00:23:00 +0900
 categories: blog
 image: cloudflare-ip-whitelist.png
 description: "도메인으로만 접속 가능하게 막기"
