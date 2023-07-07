@@ -32,7 +32,7 @@ $ sudo ufw allow from 103.22.200.0/22 to any port 80
 근데, 전 귀찮아서 `.sh 파일`로 만들어서 서버에 올려두고 실행했어요.
 ```sh
 $ sudo ufw delete allow 80  //80번 포트 닫음
-$ sudo chmod 777
+$ sudo chmod 777  //어차피 한 번 쓰고 버릴꺼니까, 실행 가능해지도록 모든 권한 부여
 $ sudo ./ips.sh
 ```
 
