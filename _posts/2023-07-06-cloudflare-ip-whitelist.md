@@ -15,7 +15,7 @@ description: "도메인으로만 접속 가능하게 막기"
 저건 본인 서버에 `클라우드플레어` 소유 IP만 접속 가능하게 막아두면 해결되는거에요. 이 과정에서 IP로 바로 웹사이트로 접속하는 것도 같이 막혀요.
 `클라우드플레어`의 IP들은 [여기서](https://cloudflare.com/ips) 확인할 수 있어요.
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/cloudflare-ip-whitelist/0.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/cloudflare-ip-whitelist/0.png)
 
 <br>
 저 IP들만 80번 포트로 들어올 수 있도록 설정하면 되는거에요.
