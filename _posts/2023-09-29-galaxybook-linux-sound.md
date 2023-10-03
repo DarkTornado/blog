@@ -20,7 +20,7 @@ description: "갤럭시북 Flex, Flex2 5G, 이온 / 아치, 만자로, 우분투
 
 <br>
 
-아무튼 아치 계열 리눅스에서는 다음 명령어를 통해 설치할 수 있어요.
+아무튼 만자로를 포함한 아치 계열 리눅스에서는 다음 명령어를 통해 `sof-firmware`를 설치할 수 있어요.
 ```sh
 $ sudo pacman -S sof-firmware
 ```
