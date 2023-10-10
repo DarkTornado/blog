@@ -28,7 +28,7 @@ $ sudo pacman -S sof-firmware
 
 <br>
 
-`hda-verb`를 사용할건데, 그게 `alsa-tools`에 있을거에요. 따라서 다음 명령어를 통해 `alsa-tools`를 설치해야 해요.
+`hda-verb`라는 것을 사용할건데, 그게 `alsa-tools`라는거에 들어있을거에요. 따라서 다음 명령어를 통해 `alsa-tools`를 설치해야 해요.
 ```sh
 $ sudo pacman -S alsa-tools //아치리눅스, 만자로리눅스
 
