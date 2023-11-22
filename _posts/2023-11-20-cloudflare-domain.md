@@ -58,7 +58,7 @@ description: "클라우드플레어에서 도메인 구매하기"
 ![image]({{site.url}}{{site.baseurl}}/assets/images/cloudflare-domain/7.png)
 
 <br>
-물론, 도메인만 산다고 해서 사이트가 생기는건 아니에요. 도메인은 서버로 접속할 때 `ip 주소` 대신 입력하는 문자일 뿐이에요.
+물론, 도메인만 산다고 해서 사이트가 생기는건 아니에요. 도메인은 서버에 접속할 때 `ip 주소` 대신 입력하는 문자일 뿐이에요.
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/cloudflare-domain/8.png)
 
