@@ -45,6 +45,7 @@ description: 개발자는 해당 애플리케이션을 통해 그 어떠한 개�
   - [내 IP 확인](https://play.google.com/store/apps/details?id=com.darktornado.showmyip)
   - [대전 도시철도 노선도](https://play.google.com/store/apps/details?id=com.darktornado.daejeonmetro)
   - [메이플 도구](https://play.google.com/store/apps/details?id=com.darktornado.mapletools)
+  - [배터리 온도 표시](https://play.google.com/store/apps/details?id=com.darktornado.batterytemp)
   - [뷁어 번역기](https://play.google.com/store/apps/details?id=com.darktornado.euckr2shiftjis)
   - [실방무 계산기](https://play.google.com/store/apps/details?id=com.darktornado.mapleignoredefcalc)
   - [여객열차 운행정보](https://play.google.com/store/apps/details?id=com.darktornado.traininfo)
@@ -52,6 +53,7 @@ description: 개발자는 해당 애플리케이션을 통해 그 어떠한 개�
   - [주기적으로 소리](https://play.google.com/store/apps/details?id=com.darktornado.sounddelay)
   - [혼모노래방](https://play.google.com/store/apps/details?id=com.darktornado.animesongnumber)
   - [C언어 예제 목록](https://play.google.com/store/apps/details?id=com.darktornado.cexamples)
+  - [Dec to Hex (진법 변환기)](https://play.google.com/store/apps/details?id=com.darktornado.dectohex)
   
 ### 제12조(개인정보 처리방침 변경)
 - 이 개인정보처리방침은 2022년 9월 19부터 적용됩니다.
