@@ -54,6 +54,7 @@ description: 개발자는 해당 애플리케이션을 통해 그 어떠한 개�
   - [혼모노래방](https://play.google.com/store/apps/details?id=com.darktornado.animesongnumber)
   - [C언어 예제 목록](https://play.google.com/store/apps/details?id=com.darktornado.cexamples)
   - [Dec to Hex (진법 변환기)](https://play.google.com/store/apps/details?id=com.darktornado.dectohex)
+  - [Imanity Gen](https://play.google.com/store/apps/details?id=com.darktornado.imanity)
   
 ### 제12조(개인정보 처리방침 변경)
 - 이 개인정보처리방침은 2022년 9월 19부터 적용됩니다.
