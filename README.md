@@ -1,6 +1,6 @@
 # [Dark Tornado's Blog](https://darktornado.github.io/blog/)
 
-© 2021-2023 Dark Tornado, All rights reserved.
+© 2021-2024 Dark Tornado, All rights reserved.
 
 * Korean Blog on Github.
 
