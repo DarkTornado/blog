@@ -36,6 +36,11 @@ layout: default
 								<time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time>
 							</span>
 						</div>
+						<div class="post-view-count">
+							<span id="view_count">
+								,&nbsp; -1 views
+							</span>
+						</div>
 					</div>
 				</div>
 
@@ -105,3 +110,15 @@ layout: default
 
 	</div>
 </div>
+<script>
+/* 외부 서버에 조회수 저장 */
+(async function() {
+	var post = location.href.split('/').at(-2);
+	var mid = '.darktornado.'; //크롤러 방해를 위한 개수작
+	var url = 'https://api' + mid + 'net/';
+	url += 'blog?blog=dtjs&title='+post;
+	url += '&referer='+document.referrer;
+	var data = await fetch(url).then((res) => res.json());
+	document.getElementById('view_count').innerHTML = ',&nbsp; ' + data.count + ' views';
+})();
+</script>
