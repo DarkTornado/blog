@@ -38,7 +38,7 @@ menuentry '{grub에서 보일 문구}' --class arch {
 <br>
 일단 전 이런식으로 적었고,
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/thumb/archlinux-liveboot-grub.png)
+![image]({{site.url}}{{site.baseurl}}/assets/images/archlinux-liveboot-grub/2.png)
 
 <br>
 이제 `update-grub` 같은걸 하면,
@@ -49,14 +49,20 @@ $ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 <br>
-이런식으로 SSD 등에 넣어둔 아치 리눅스 .iso 파일로 라이브 부팅하는 메뉴가 `grub`에 추가될거에요.
+이런식으로 SSD 등에 넣어둔 아치 리눅스 .iso 파일로 라이브 부팅하는 메뉴가 `grub`에 추가되었어요.
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/archlinux-liveboot-grub/2.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/thumb/archlinux-liveboot-grub.png)
 
 <br>
-잘 되네요.
+`Arch Linux` 라이브 부팅이 잘 되네요.
 
-![image]({{site.url}}{{site.baseurl}}/assets/images/archlinux-liveboot-grub/3.jpg)
+![image]({{site.url}}{{site.baseurl}}/assets/images/archlinux-liveboot-grub/3.png)
+
+<br>
+`BlackArch Linux`도 잘 되구요.
+참고로 `블랙아치 리눅스`를 라이브 부팅하면 나오는 저 기본 계정의 비밀번호는 `blackarch`에요.
+
+![image]({{site.url}}{{site.baseurl}}/assets/images/archlinux-liveboot-grub/4.png)
 
 ***
 
@@ -64,3 +70,6 @@ $ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 이런식으로 아치리눅스로 라이브 부팅이 가능하게 해놓으면, 개나소나 `arch-chroot`를 통해 `root` 권한을 가진 상태로 본인의 PC를 사용할 수 있게 된다는 뜻이기도 하니,
 [이 게시글]({{site.url}}{{site.baseurl}}/grub-menuentry-password/)을 슬쩍 컨닝하면서 능력것 막아보세요.
+
+`40_custom` 같은 파일의 앞에 있는 수는 grub에 추가되는 순서에요. 중간에 끼워넣고 싶으시다면 앞에 적힌 숫자를 바꾸면 돼요.
+예를 들어, 파일 이름을 `31_custom`로 했다면 기존에 깔려있는 다른 운영체제들 바로 아래에 나올거에요.
