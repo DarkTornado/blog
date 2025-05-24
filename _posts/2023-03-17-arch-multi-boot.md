@@ -119,6 +119,18 @@ description: "멀티 부팅으로 아치 리눅스 설치하기 + 시나몬"
 <br>
 그리고 `Quit` 골라서 나오면 됩니당
 
+그리고 `mkfs.ext4 {파티션}` 명령어 등를 통해 방금 만든 파티션에 `ext4` 파일 시스템을 만들어주세요.
+뒤에 p4 같은거 빼먹으면 디스크 내용물이 전부 사라지니, 잘 보고 입력해야 해요.
+
+```
+# mkfs.ext4 {파티션}  //예시) mkfs.ext4 /dev/nvme1n0p4
+```
+
+![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/21.png)
+
+<br>
+
+
 `lsblk -f` 명령어 등을 통해 어떤게 어느 파티션인지 잘 알아오시고나서 마운트
 ```
 # mount /dev/{아치 리눅스 설치할 파티션} /mnt
