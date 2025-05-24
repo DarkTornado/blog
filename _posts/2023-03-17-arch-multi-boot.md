@@ -45,6 +45,19 @@ description: "멀티 부팅으로 아치 리눅스 설치하기 + 시나몬"
 
 ***
 
+### `Ventoy`를 사용했는데, 부팅이 되지 않는다면?
+
+`can't access tty` 어쩌고 저쩌고 뜨면서 `아치 리눅스`가 부팅되지 않는다면,
+
+![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/22.png)
+
+<br>
+`Boot in normal mode` 대신 Boot in grub2 mode`로 부팅해보세요.
+
+![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/23.png)
+
+***
+
 ## 인터넷 연결
 
 유선 인터넷을 사용하시거나 가상머신에 설치중이시라면 인터넷 연결은 알아서 되어있을거에요.
@@ -157,6 +170,36 @@ description: "멀티 부팅으로 아치 리눅스 설치하기 + 시나몬"
 
 <br>
 아무튼 아치 리눅스 설치만 끝났어요.
+
+***
+
+### `pacstrap` 도중 `failed retrieving file 'community.db' from ... 404` 오류가 발생한다면?
+
+`community 저장소`가 사라진 것이 원인이에요.
+사라졌으니까 `404 Not Found` 발생
+
+![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/24.png)
+
+<br>
+2023년에 `community 저장소`가 `extra 저장소`로 병합되었어요.
+기존 사용자들을 위해 일단 `community 저장소`를 빈 상태로 남겨는 두었다가, 2025년 3월 1일부로 삭제했어요.
+[관련 내용](https://archlinux.org/news/cleaning-up-old-repositories/)
+
+`community 저장소` 삭제가 반영된 `최신 .iso 파일`을 사용하면 해결될 문제에요. 필자의 경우, `2025년 5월에 나온 .iso 파일`로 갈아끼웠더니 잘 작동했어요.
+
+이전 파일을 계속 쓰고 싶다면, 이런식으로 `/etc/pacman.conf` 파일을 열어서
+```
+# vim /etc/pacman.conf
+```
+![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/25.png)
+
+<br> 
+이런식으로 `community 저장소` 부분에 주석 처리를 하거나, 지우면 해결될거에요.
+
+![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/26.png)
+
+<br>
+근데, 겁나구버전 사용하면 신뢰할 수 없다 어쩌고 뜨면서 작동하지 않을 수도 있으니, 어차피 최신 버전으로 갈아끼워야 할 수도 있어요.
 
 ***
 
