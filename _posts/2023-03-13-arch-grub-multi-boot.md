@@ -38,7 +38,7 @@ $ sudo vim /usr/bin/grub-mkconfig
 
 <br>
 
-`GRUB_DISABLE_OS_PROBER="true" `라고 적힌게 보일텐데
+`GRUB_DISABLE_OS_PROBER="true"`라고 적힌게 보일텐데
 
 ![image]({{site.url}}{{site.baseurl}}/assets/images/arch-grub-multi-boot/4.png)
 
