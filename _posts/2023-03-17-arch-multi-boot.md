@@ -220,6 +220,8 @@ description: "멀티 부팅으로 아치 리눅스 설치하기 + 시나몬"
 # passwd root     //이후에 비밀번호 입력
 # useradd {유저이름}
 # passwd {유저이름}     //이후에 비밀번호 입력
+# mkdir -p /home/{유저이름}   //수동으로 생성 안해두면 오류남. 데스크톱 환경도 안들어가짐
+# chmod 777 /home/{유저이름}  //권한 안줘도 오류남. 난 귀찮으니 무지성 777 사용
 ```
 
 <br>
@@ -238,25 +240,6 @@ description: "멀티 부팅으로 아치 리눅스 설치하기 + 시나몬"
 
 ***
 
-## 시나몬 설치
-
-전 시나몬을 사용할거에요. 굳이 시나몬을 설치하실 필요는 없으니, 원하시는 데스크톱 환경으로 설치하시면 되는거에요.
-
-```
-# pacman -S cinnamon     //시나몬 설치
-# pacman -S gnome-terminal     //터미널은 안깔리니 터미널 따로 설치
-# pacman -S xorg-server lightdm lightdm-gtk-greeter     //아무튼 필요한거 설치
-# mkdir /home/{계정이름}     //폴더 미리 안만들어두면 GUI에서 로그인하는 순간 오류뜸
-# chmod 777 /home/{계정이름}     //만들기만 하면 권한 부족해서 또 오류뜸
-systemctl enable lightdm     //재부팅시 GUI 자동 실행. 종종 자동으로 켜지게 하면 오류 안뜨고 수동으로 키면 오류나는 환경들이 있어요.
-```
-![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/12.png)
-
-<br>
-아무튼 위에 저 시나몬이랑 이것저것 다 설치하면 `800 ~ 900 MiB` 정도 먹을거에요.
-
-***
-
 ## NetworkManager 설치
 
 이거 안해두면 재부팅했을 때 인터넷이 안될거에요.
@@ -266,29 +249,27 @@ systemctl enable lightdm     //재부팅시 GUI 자동 실행. 종종 자동으�
 # systemctl enable NetworkManager     //대/소문자 구분 필요
 ```
 
+<br>
+`LTE 노트북` 등 셀룰러 데이터를 지원하는 노트북에서 셀룰러를 사용하고 싶다면, `modemmanager` 설치도 필요할거에요.
+
+```
+# pacman -S modemmanager
+# systemctl enable ModemManager     //대/소문자 구분 필요
+```
+
 ***
 
-## 재부팅
+## 데스크톱 환경 또는 창 관리자 설치
 
-```
-# exit     //chroot 종료
-# reboot     //재부팅
-```
+`아치 리눅스`는 굳이 없어도 되는 것들은 다 없는 상태라서, GUI도 없어요.
+이 상태에서 설치를 마친다면, 이런식으로 검은 배경에 하얀 글자만 적힌 화면이 나올거에요.
 
-<br>
-와! 재부팅을 해보니 `grub`가 나와요.
-
-![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/13.png)
+![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/27.png)
 
 <br>
-저거 배경 시커먼건 배경화면이 없어서 그래요.
-
-![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/14.png)
-
-<br>
-아무튼 아치 리눅스 및 시나몬 설치가 끝났어요!
-
-![image]({{site.url}}{{site.baseurl}}/assets/images/arch-multi-boot/15.png)
+마우스로 아이콘을 클릭하거나 하는 방식으로 사용할 수 있는 GUI 환경을 원한다면, `데스크톰 환경`이나 `창 관리자`를 설치해야 해요.
+게시글이 너무 길어지는 관계로, 따로 분리시켰어요.
+[여기를 누르면 이동되는 게시글을 참고해주세요](../arch-desktop-experience/)
 
 ***
 
